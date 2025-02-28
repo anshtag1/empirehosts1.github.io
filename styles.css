@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Server Status */
+.status {
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Online Status */
+.status.online {
+    background-color: #28a745;
+}
+
+/* Offline Status */
+.status.offline {
+    background-color: #dc3545;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Buttons */
+.button-group {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+/* Hover Effect for Buttons */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Button Disabled */
+button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
